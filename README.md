@@ -11,7 +11,7 @@ using not yet released `nez`
 
 ```bash
 
-mkdir node_modules && cd node_mosules
+mkdir node_modules && cd node_modules
 git clone git@github.com:nomilous/nez.git
 cd ../ && npm install
 
