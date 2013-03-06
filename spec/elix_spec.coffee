@@ -4,4 +4,6 @@ require('nez').realize 'Elix', (Elix, test, context) ->
 
         does 'an EXPECTATION', (done) ->
 
+            true.should.equal true
+
             test done

@@ -10,8 +10,12 @@ Elix = require('nez').objective 'Elix',
 
     description: """
 
-        Coordinate the tree of servers/services that
-        compose the application rooted at this 'node'. 
+
+
+        Coordinate a tree of servers/services.
+
+
+
 
     """, (requirements) ->
 
