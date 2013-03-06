@@ -1,0 +1,22 @@
+#!/usr/bin/env coffee
+
+Elix = require('nez').objective 'Elix',
+
+    nimbal: 'https://localhost:10101/'
+
+    class: 'Application Root Node'
+
+    category: 'Distributed Systems'
+
+    description: """
+
+        Coordinate the tree of servers/services that
+        compose the application rooted at this 'node'. 
+
+    """, (requirements) ->
+
+
+        requirements.link 'requirements/configurability'
+        requirements.link 'requirements/introspectability'
+        requirements.link 'requirements/manageability'
+

@@ -1,0 +1,19 @@
+{
+  "name": "elix",
+  "description": "dMVC - Application Root",
+  "version": "0.0.0",
+  "author": "nomilous <nomilous@gmail.com>",
+  "contributors": [
+    {
+      "name": "nomilous",
+      "email": "nomilous@gmail.com"
+    }
+  ],
+  "main": "./lib/elix.js",
+  "repository": "git@github.com:nomilous/elix.git",
+  "dependencies": {
+    "nez": "0.0.1",
+    "plex": "0.0.4"
+  },
+  "devDependencies": {}
+}
