@@ -2,7 +2,7 @@ elix
 ====
 
 
-Crafts applications, 
+Crafts applications...<br />
 from [Brix](https://github.com/nomilous/brix)
 
 
