@@ -60,6 +60,6 @@ application 'Application Name', (node) ->
 
     node.link 'servers/ui'
     node.link 'servers/storage'
-    node.start()
+    
 
 ```

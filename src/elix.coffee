@@ -2,8 +2,23 @@ module.exports = elix =
 
     configure: (stacker, config) -> 
 
-        stacker.start = -> 
+        #
+        # initialize the server with config
+        #
 
-            Server = require './server'
+        elix.server = new (require './server') config
 
-            (new Server config).start()
+
+    edge: (placeholder, nodes) -> 
+
+        if nodes.to.class == 'elix'
+
+            #
+            # Walker (thread) has arrived back at the 
+            # root node. All config will have been 
+            # accumulated.
+            # 
+            # Start the server.
+            # 
+
+            elix.server.start()
