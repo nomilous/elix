@@ -1,3 +1,9 @@
 module.exports = elix =
 
-    moo: ->
+    configure: (stacker, config) -> 
+
+        stacker.start = -> 
+
+            Server = require './server'
+
+            (new Server config).start()
