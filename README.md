@@ -1,7 +1,9 @@
 elix
 ====
 
-Application Root Node
+### Root Node
+
+Crafts an application from [Brix](https://github.com/nomilous/brix)
 
 
 Environment
@@ -29,7 +31,7 @@ Usage
 
 this may change
 
-### `live/root`
+### `/home/daemon_name/live/root`
 
 ```coffee
 #!/usr/bin/env coffee
@@ -44,11 +46,11 @@ application = require('nez').plugin 'elix'
     # daemon username
     # 
 
-    daemon: 'daemon'
+    daemon: 'daemon_name'
 
 
     #
-    # socket.io listening at port
+    # socket.io, waiting for the brix
     #
 
     port: 12321
