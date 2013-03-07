@@ -2,6 +2,14 @@ module.exports = elix =
 
     configure: (stacker, config) -> 
 
+        # #
+        # # absolute path of the rootFile
+        # # 
+        # # (that called this plugin)
+        # #
+        # stacker.rootFile = fing.trace()[2].file
+
+
         #
         # initialize the server with config
         #
@@ -22,3 +30,14 @@ module.exports = elix =
             # 
 
             elix.server.start()
+
+
+        #
+        # display edge traversals
+        #
+
+        console.log '%s:%s --> %s:%s', 
+            nodes.from.class, 
+            nodes.from.label,
+            nodes.to.class,
+            nodes.to.label

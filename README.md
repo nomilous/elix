@@ -1,9 +1,9 @@
 elix
 ====
 
-**Root Node**
 
-Crafts an application from [Brix](https://github.com/nomilous/brix)
+Crafts applications, 
+from [Brix](https://github.com/nomilous/brix)
 
 
 Environment
