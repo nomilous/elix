@@ -1,7 +1,7 @@
 elix
 ====
 
-### Root Node
+**Root Node**
 
 Crafts an application from [Brix](https://github.com/nomilous/brix)
 
