@@ -19,12 +19,11 @@ module.exports = elix =
 
     edge: (placeholder, nodes) -> 
 
-        if nodes.to.class == 'elix'
+        if nodes.from.class == 'elix' and nodes.tree == 'up'
 
             #
-            # Walker (thread) has arrived back at the 
-            # root node. All config will have been 
-            # accumulated.
+            # Walker (thread) is departing the branch.
+            # All config will have been collected.
             # 
             # Start the server.
             # 
