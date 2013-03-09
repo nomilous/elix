@@ -1,23 +1,14 @@
 elix
 ====
 
-
-Crafts applications...<br />
+Crafts applications...<br /><br />
 from [Brix](https://github.com/nomilous/brix)
 
 
-Environment
------------
+### Current Version
 
-using not yet released `nez`
+0.0.1 (pre-release)
 
-```bash
-
-mkdir node_modules && cd node_modules
-git clone git@github.com:nomilous/nez.git
-cd ../ && npm install
-
-```
 
 Implementation Objective
 ------------------------

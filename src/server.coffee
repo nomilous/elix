@@ -1,4 +1,4 @@
-class Server
+module.exports = class Server
 
     constructor: (@config) -> 
 
@@ -15,6 +15,3 @@ class Server
                 adaptor: 'socket.io'
                 port: @config.port
 
-
-
-module.exports = Server

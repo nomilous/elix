@@ -1,7 +1,7 @@
 {
   "name": "elix",
-  "description": "dMVC - Application Root",
-  "version": "0.0.0",
+  "description": "Distributed Application Root",
+  "version": "0.0.1",
   "author": "nomilous <nomilous@gmail.com>",
   "contributors": [
     {

@@ -19,7 +19,7 @@ module.exports = elix =
 
     edge: (placeholder, nodes) -> 
 
-        if nodes.from.class == 'elix' and nodes.tree == 'up'
+        if nodes.from.class == 'elix' and nodes.class == 'Tree.Rootward'
 
             #
             # Walker (thread) is departing the branch.
