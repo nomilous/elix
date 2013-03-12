@@ -1,5 +1,5 @@
-fs  = require 'fs'
-tls = require 'tls'
+fs    = require 'fs'
+https = require 'https'
 
 module.exports = class Server
 
@@ -14,7 +14,7 @@ module.exports = class Server
             key:  fs.readFileSync @config.key
             cert: fs.readFileSync @config.cert
 
-        server = tls.createServer options, (clearTextStream) ->
+        server = https.createServer options, (cleartextStream) ->
 
             console.log 'server connected', 
                 cleartextStream.authorized ? 'authorized' : 'unauthorized'
