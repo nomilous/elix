@@ -59,8 +59,8 @@ application = require('nez').plugin 'elix'
 
 application 'Application Name', (node) ->
 
-    node.link 'servers/ui'
-    node.link 'servers/storage'
+    node.link 'nodes/ui'
+    node.link 'nodes/storage'
     
 
 ```
