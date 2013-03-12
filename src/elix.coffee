@@ -1,3 +1,5 @@
+
+
 module.exports = elix =
 
     configure: (stacker, config) -> 
@@ -16,9 +18,10 @@ module.exports = elix =
 
         elix.server = new (require './server') config
 
+
     hup: ->
 
-        
+
 
 
     edge: (placeholder, nodes) -> 
@@ -45,5 +48,16 @@ module.exports = elix =
         #     nodes.to.class,
         #     nodes.to.label
 
-    handles: []
+    handles: ['node', 'service']
     matches: []
+
+
+    node: (node) -> 
+
+        console.log '(register) %s:%s', node.class, node.label
+
+
+    service: (node) -> 
+
+        console.log '(register) %s:%s', node.class, node.label
+
