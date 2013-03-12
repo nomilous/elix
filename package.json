@@ -15,6 +15,7 @@
     "plex": "0.0.4"
   },
   "devDependencies": {
-    "nez": "0.0.2"
+    "nez": "0.0.2",
+    "should": "~1.2.2"
   }
 }
