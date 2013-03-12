@@ -39,11 +39,11 @@ module.exports = elix =
         # display edge traversals
         #
 
-        console.log '%s:%s --> %s:%s', 
-            nodes.from.class, 
-            nodes.from.label,
-            nodes.to.class,
-            nodes.to.label
+        # console.log '%s:%s --> %s:%s', 
+        #     nodes.from.class, 
+        #     nodes.from.label,
+        #     nodes.to.class,
+        #     nodes.to.label
 
     handles: []
     matches: []

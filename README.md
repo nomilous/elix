@@ -47,6 +47,16 @@ application = require('nez').plugin 'elix'
     port: 12321
 
 
+    #
+    # TLS
+    # http://nodejs.org/api/tls.html
+    # 
+
+    key: '/path/to/key.pem'
+    cert: '/path/to/cert.pem'
+
+
+
 application 'Application Name', (node) ->
 
     node.link 'servers/ui'
