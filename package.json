@@ -1,7 +1,7 @@
 {
   "name": "elix",
   "description": "Distributed Application Root",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "nomilous <nomilous@gmail.com>",
   "contributors": [
     {
@@ -12,8 +12,9 @@
   "main": "./lib/elix.js",
   "repository": "git@github.com:nomilous/elix.git",
   "dependencies": {
-    "nez": "0.0.1",
     "plex": "0.0.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nez": "0.0.2"
+  }
 }
