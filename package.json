@@ -12,7 +12,7 @@
   "main": "./lib/elix.js",
   "repository": "git@github.com:nomilous/elix.git",
   "dependencies": {
-    "plex": "0.0.4"
+    "plex": "0.0.5"
   },
   "devDependencies": {
     "nez": "0.0.2",

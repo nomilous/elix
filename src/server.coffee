@@ -1,5 +1,6 @@
-fs    = require 'fs'
-https = require 'https'
+fs        = require 'fs'
+https     = require 'https'
+Protocols = require './protocols'
 
 module.exports = class Server
 
@@ -31,8 +32,12 @@ module.exports = class Server
 
             mode: 'root'
 
+            secret: @config.secret
+
             listen: 
 
                 adaptor: 'socket.io'
                 server: server
+
+            protocol: Protocols.bind
 

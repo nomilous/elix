@@ -56,6 +56,14 @@ application = require('nez').plugin 'elix'
     cert: '/path/to/cert.pem'
 
 
+    #
+    # auth 'secret'
+    #
+
+    secret: 'passrod'
+
+
+
 
 application 'Application Name', (node) ->
 
