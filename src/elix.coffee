@@ -21,7 +21,7 @@ module.exports = elix =
 
     hup: ->
 
-
+        console.log '(hup) - pending propagate into tree'
 
 
     edge: (placeholder, nodes) -> 

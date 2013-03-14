@@ -25,8 +25,11 @@ module.exports = class Server
 
         server.listen @config.port, => 
 
-            console. log 'listening @ port', @config.port
+            console. log '(running) %s', JSON.stringify
 
+                port: @config.port
+                pid:  process.pid
+            
 
         require('plex').start
 
